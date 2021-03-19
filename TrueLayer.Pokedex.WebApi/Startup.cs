@@ -10,6 +10,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TrueLayer.Pokedex.ConcreteClasses;
+using TrueLayer.Pokedex.Interfaces;
+using Unity;
 
 namespace TrueLayer.Pokedex.WebApi
 {
@@ -25,7 +28,7 @@ namespace TrueLayer.Pokedex.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddTransient<IRestInteraction, GenericRestInteraction>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -45,7 +48,8 @@ namespace TrueLayer.Pokedex.WebApi
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthorization();        
+
 
             app.UseEndpoints(endpoints =>
             {

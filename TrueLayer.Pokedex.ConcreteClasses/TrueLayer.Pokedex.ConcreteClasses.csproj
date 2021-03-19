@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrueLayer.Pokedex.Common\TrueLayer.Pokedex.Common.csproj" />
+    <ProjectReference Include="..\TrueLayer.Pokedex.Interfaces\TrueLayer.Pokedex.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

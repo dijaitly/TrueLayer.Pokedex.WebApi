@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  truelayer.pokedex.webapi:
+    image: ${DOCKER_REGISTRY-}truelayerpokedexwebapi
+    build:
+      context: .
+      dockerfile: TrueLayer.Pokedex.WebApi\Dockerfile
