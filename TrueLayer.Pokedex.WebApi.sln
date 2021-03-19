@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueLayer.Pokedex.Model", "
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D5CC9704-5A57-415D-914E-8C37E4827458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueLayer.Pokedex.UnitTests", "..\TrueLayer.Pokedex.UnitTests\TrueLayer.Pokedex.UnitTests.csproj", "{44C2C9F6-264A-46B5-BC6D-C70A66900949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueLayer.Pokedex.UnitTests", "TrueLayer.Pokedex.UnitTests\TrueLayer.Pokedex.UnitTests.csproj", "{3F3AB4F1-22C0-422C-A39F-E1A9BFEA00B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{D5CC9704-5A57-415D-914E-8C37E4827458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5CC9704-5A57-415D-914E-8C37E4827458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5CC9704-5A57-415D-914E-8C37E4827458}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44C2C9F6-264A-46B5-BC6D-C70A66900949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44C2C9F6-264A-46B5-BC6D-C70A66900949}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44C2C9F6-264A-46B5-BC6D-C70A66900949}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44C2C9F6-264A-46B5-BC6D-C70A66900949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3AB4F1-22C0-422C-A39F-E1A9BFEA00B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3AB4F1-22C0-422C-A39F-E1A9BFEA00B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3AB4F1-22C0-422C-A39F-E1A9BFEA00B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3AB4F1-22C0-422C-A39F-E1A9BFEA00B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

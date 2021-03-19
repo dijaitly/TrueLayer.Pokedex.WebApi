@@ -1,0 +1,10 @@
+﻿{
+  "success": {
+    "total": 1
+  },
+  "contents": {
+    "translation": "shakespeare",
+    "text": "You gave Mr. Tim a hearty meal, but unfortunately what he ate made him die.",
+    "translated": "Shakespeare"
+  }
+}
